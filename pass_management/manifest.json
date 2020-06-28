@@ -1,0 +1,26 @@
+{
+
+  "description": "This extension is created by Tushar Mohod.",
+  "manifest_version": 2,
+  "name": "Password TOR Browser",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/icons8-password-40.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icons8-password-30.png",
+    "theme_icons": [{
+        "light": "icons/icons8-password-30.png",
+        "dark": "icons/icons8-password-30.png",
+        "size": 32
+    }],
+    "default_title": "Beastify",
+    "default_popup": "popup/password_popup.html"
+  }
+
+}
